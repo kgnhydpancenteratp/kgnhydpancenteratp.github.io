@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KGN Hyderabad Pan Center · Anantapur · Est. 1974</title>
+<meta name="description" content="Anantapur's landmark destination for authentic, handcrafted paan since 1974. Rated 4.9 on Google. WhatsApp orders and bulk orders for weddings and events.">
+<meta property="og:title" content="KGN Hyderabad Pan Center · Est. 1974">
+<meta property="og:description" content="Every Paan, a Royal Treat. Handcrafted paan in Anantapur since 1974. Rated 4.9 on Google.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#FBF6EC;
+  --card:#FFFFFF;
+  --maroon:#9E2B23;
+  --maroon-dark:#7C1F19;
+  --leaf:#2E7D4F;
+  --ink:#2B2119;
+  --muted:#6E5F51;
+  --line:#E8DDC9;
+  --wa:#25D366;
+  --swiggy:#FC8019;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--cream);
+  color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  font-size:16px;
+  line-height:1.6;
+}
+.wrap{max-width:520px;margin:0 auto;padding:0 18px 120px}
+.te{font-family:'Noto Sans Telugu','Inter',sans-serif}
+
+/* ---------- Hero ---------- */
+.hero{text-align:center;padding:38px 0 26px}
+.leaf{width:44px;height:44px;margin:0 auto 14px;display:block}
+h1{
+  font-family:'Fraunces',Georgia,serif;
+  font-size:31px;line-height:1.2;font-weight:700;
+  margin:0 0 6px;color:var(--maroon);letter-spacing:-.01em;
+}
+.h1-te{font-size:19px;font-weight:600;color:var(--ink);margin:0 0 12px}
+.tagline{
+  font-family:'Fraunces',Georgia,serif;font-style:italic;
+  font-size:17px;color:var(--muted);margin:0 0 4px;
+}
+.tagline-te{font-size:14.5px;color:var(--muted);margin:0 0 18px}
+.creds{
+  display:flex;justify-content:center;align-items:center;gap:10px;
+  flex-wrap:wrap;margin-bottom:20px;
+}
+.pill{
+  background:#fff;border:1px solid var(--line);border-radius:999px;
+  padding:7px 14px;font-size:13px;font-weight:600;color:var(--ink);
+  box-shadow:0 1px 3px rgba(43,33,25,.05);
+}
+.pill.star{color:var(--maroon)}
+
+/* ---------- Photos ---------- */
+.photo{height:auto;
+  width:100%;border-radius:16px;display:block;
+  box-shadow:0 4px 18px rgba(43,33,25,.10);
+}
+.slot{
+  width:100%;aspect-ratio:16/10;border-radius:16px;
+  border:2px dashed var(--line);background:#fff;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:4px;color:var(--muted);font-size:13px;text-align:center;padding:12px;
+}
+.slot b{color:var(--maroon);font-size:13px;font-weight:600}
+
+/* ---------- Sections ---------- */
+section{margin-top:34px}
+h2{
+  font-family:'Fraunces',Georgia,serif;
+  font-size:21px;font-weight:600;color:var(--ink);
+  margin:0 0 4px;text-align:center;
+}
+.h2-te{font-size:14px;color:var(--muted);text-align:center;margin:0 0 18px}
+.rule{
+  width:46px;height:2px;background:var(--maroon);opacity:.55;
+  margin:0 auto 16px;border-radius:2px;
+}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  width:100%;padding:15px 16px;border-radius:13px;
+  font-size:16px;font-weight:600;text-decoration:none;
+  border:none;cursor:pointer;margin-bottom:11px;
+  transition:transform .12s ease,box-shadow .12s ease;
+  font-family:'Inter',sans-serif;
+}
+.btn:active{transform:scale(.985)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 3px 12px rgba(37,211,102,.30)}
+.btn-swiggy{background:var(--swiggy);color:#fff;box-shadow:0 3px 12px rgba(252,128,25,.28)}
+.btn-maroon{background:var(--maroon);color:#fff;box-shadow:0 3px 12px rgba(158,43,35,.24)}
+.btn-out{background:#fff;color:var(--maroon);border:1.5px solid var(--maroon)}
+.btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.row2 .btn{margin-bottom:11px}
+.sub{font-size:13px;color:var(--muted);text-align:center;margin:2px 0 0}
+
+/* ---------- Menu ---------- */
+.menu{display:grid;gap:14px}
+.item{
+  background:var(--card);border:1px solid var(--line);border-radius:16px;
+  overflow:hidden;box-shadow:0 2px 10px rgba(43,33,25,.05);
+}
+.item .photo,.item .slot{border-radius:0;box-shadow:none;border-left:0;border-right:0;border-top:0}
+.item-body{padding:14px 16px 16px}
+.item-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:3px}
+.item-name{font-family:'Fraunces',Georgia,serif;font-size:17px;font-weight:600;color:var(--ink)}
+.badge{
+  background:var(--maroon);color:#fff;font-size:10.5px;font-weight:600;
+  letter-spacing:.06em;padding:3px 8px;border-radius:999px;text-transform:uppercase;
+}
+.item-desc{font-size:14px;color:var(--muted);margin:0}
+.also{
+  background:#fff;border:1px solid var(--line);border-radius:14px;
+  padding:14px 16px;font-size:14px;color:var(--muted);text-align:center;margin-top:14px;
+}
+.also b{color:var(--ink);font-weight:600}
+
+
+/* ---------- Videos ---------- */
+.vids{display:grid;gap:12px}
+.vid{
+  display:flex;align-items:center;gap:14px;width:100%;text-align:left;
+  background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:14px 16px;cursor:pointer;font-family:'Inter',sans-serif;
+  box-shadow:0 2px 10px rgba(43,33,25,.05);transition:transform .12s ease;
+}
+.vid:active{transform:scale(.99)}
+.play{
+  flex:none;width:44px;height:44px;border-radius:50%;background:var(--maroon);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 3px 10px rgba(158,43,35,.28);
+}
+.play svg{width:16px;height:16px;fill:#fff;margin-left:2px}
+.vid-t{font-family:'Fraunces',Georgia,serif;font-size:16px;font-weight:600;color:var(--ink);display:block}
+.vid-te{font-size:13px;color:var(--muted);display:block;margin-top:1px}
+.vid-frame{
+  position:relative;width:100%;max-width:300px;margin:0 auto;
+  aspect-ratio:9/16;border-radius:16px;overflow:hidden;
+  box-shadow:0 4px 18px rgba(43,33,25,.14);background:#000;
+}
+.vid-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt{
+  display:block;text-align:center;margin-top:14px;font-size:13.5px;
+  color:var(--maroon);text-decoration:none;font-weight:600;
+}
+
+/* ---------- Bulk ---------- */
+.bulk{
+  background:linear-gradient(160deg,#FFF9EE,#FBF1DF);
+  border:1px solid var(--line);border-radius:18px;padding:22px 18px;
+}
+.bulk h2{margin-top:0}
+.bulk ul{list-style:none;padding:0;margin:0 0 16px}
+.bulk li{
+  font-size:14.5px;color:var(--ink);padding:7px 0 7px 24px;position:relative;
+}
+.bulk li::before{
+  content:"";position:absolute;left:2px;top:15px;width:7px;height:7px;
+  border-radius:50%;background:var(--leaf);
+}
+
+/* ---------- Visit ---------- */
+.visit{
+  background:#fff;border:1px solid var(--line);border-radius:18px;
+  padding:22px 18px;text-align:center;
+}
+.addr{font-size:15px;line-height:1.75;color:var(--ink);margin:0 0 4px}
+.landmark{font-size:13.5px;color:var(--muted);margin:0 0 14px}
+.timing{
+  display:inline-flex;align-items:center;gap:7px;
+  background:#F3F8F4;color:var(--leaf);border:1px solid #D6E8DC;
+  border-radius:999px;padding:8px 16px;font-size:14px;font-weight:600;
+  margin-bottom:18px;
+}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--leaf);display:inline-block}
+
+/* ---------- Social ---------- */
+.social{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+.social a{
+  background:#fff;border:1px solid var(--line);border-radius:13px;
+  padding:13px 6px;text-align:center;text-decoration:none;
+  font-size:12.5px;font-weight:600;color:var(--ink);
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+}
+.social svg{width:20px;height:20px}
+
+/* ---------- Footer ---------- */
+footer{
+  text-align:center;margin-top:40px;padding-top:24px;
+  border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);
+}
+.bless{
+  display:block;margin-top:12px;font-family:'Noto Sans Telugu',sans-serif;
+  font-size:14.5px;font-weight:600;color:var(--maroon);line-height:1.75;
+}
+
+/* ---------- Floating WhatsApp ---------- */
+.fab{
+  position:fixed;right:18px;bottom:20px;z-index:50;
+  width:56px;height:56px;border-radius:50%;background:var(--wa);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 6px 20px rgba(37,211,102,.42);text-decoration:none;
+}
+.fab svg{width:29px;height:29px;fill:#fff}
+
+a:focus-visible,button:focus-visible{outline:3px solid var(--maroon);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ================= HERO ================= -->
+  <header class="hero">
+    <svg class="leaf" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 21c-4 0-7-3-7-7 0-5 4-9 12-11 1 9-2 14-6 15-2 .5-3-1-3-1s3-2 4-6" stroke="#2E7D4F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <h1>KGN Hyderabad Pan Center</h1>
+    <p class="h1-te te">హైదరాబాద్ పాన్ సెంటర్</p>
+    <p class="tagline">Every Paan, a Royal Treat</p>
+    <p class="tagline-te te">ప్రతి పాన్ ఒక రాజ భోగం</p>
+
+    <div class="creds">
+      <span class="pill">Est. 1974</span>
+      <span class="pill star">★ 4.9 on Google</span>
+      <span class="pill">Anantapur</span>
+    </div>
+
+    <!-- PHOTO SLOT 1 : STOREFRONT -->
+    <img class="photo" fetchpriority="high" src="shop.jpg" width="700" height="969" alt="KGN Hyderabad Pan Center shop front, Anantapur">
+  </header>
+
+  <p style="text-align:center;font-size:15px;color:var(--muted);margin:20px 0 0">
+    Anantapur's landmark destination for authentic, handcrafted paan — prepared fresh to order since 1974. Family-friendly options for all ages.
+  </p>
+
+  <!-- ================= ORDER ================= -->
+  <section>
+    <h2>Place Your Order</h2>
+    <div class="rule"></div>
+    <a class="btn btn-wa" href="https://wa.me/919959249039?text=Hello%20KGN%20Hyderabad%20Pan%20Center%2C%20I%27d%20like%20to%20place%20an%20order.">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1s-.8 1-1 1.2c-.2.2-.4.2-.7.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6s-.7-1.6-.9-2.2c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-1.3 1.4-1 3.3.1 4.9 1.4 2.1 3 3.7 5.6 4.7 2.1.8 2.6.7 3.4.6.7-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.3-1.3c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.1 15 3.7 13.5 3.7 12 3.7 7.4 7.4 3.7 12 3.7S20.3 7.4 20.3 12 16.6 20.2 12 20.2z"/></svg>
+      Order on WhatsApp
+    </a>
+    <a class="btn btn-swiggy" href="https://www.swiggy.com/search?query=Hyderabad%20pan%20centre">Order on Swiggy</a>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section>
+    <h2>Contact Us</h2>
+    <p class="h2-te te">మమ్మల్ని సంప్రదించండి</p>
+    <div class="row2">
+      <a class="btn btn-maroon" href="tel:+919849114175">Call 98491 14175</a>
+      <a class="btn btn-maroon" href="tel:+919959249039">Call 99592 49039</a>
+    </div>
+    <button class="btn btn-out" id="saveContact" type="button">Save our contact</button>
+
+    <div class="social">
+      <a href="https://hydpancenter-vj8.caffeine.xyz">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#9E2B23" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
+        Website
+      </a>
+      <a href="https://instagram.com/hydpancenter">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#9E2B23" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="#9E2B23" stroke="none"/></svg>
+        Instagram
+      </a>
+      <a href="https://youtube.com/@hydpancenteratp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#9E2B23" stroke-width="1.7" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="#9E2B23" stroke="none"/></svg>
+        YouTube
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= MENU ================= -->
+  <section>
+    <h2>Our Signature Collection</h2>
+    <p class="h2-te te">మా ప్రత్యేక పాన్‌లు</p>
+
+    <div class="menu">
+      <article class="item">
+        <img class="photo" loading="lazy" decoding="async" src="sweet.jpg" width="720" height="540" alt="Special Sweet Pan served on a brass plate">
+        <div class="item-body">
+          <div class="item-head"><span class="item-name">Special Sweet Pan</span><span class="badge">Special</span></div>
+          <p class="item-desc">Our most-loved creation — layered with gulkand, dry fruits and sweet fillings, finished the way this shop has made it for fifty years.</p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="photo" loading="lazy" decoding="async" src="khajur.jpg" width="720" height="326" alt="Khajur Pan">
+        <div class="item-body">
+          <div class="item-head"><span class="item-name">Khajur Pan</span></div>
+          <p class="item-desc">Rich dates blended with premium ingredients for a naturally sweet, wholesome finish.</p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="photo" loading="lazy" decoding="async" src="choc.jpg" width="720" height="307" alt="Chocolate Pan">
+        <div class="item-body">
+          <div class="item-head"><span class="item-name">Chocolate Pan</span><span class="badge">Special</span></div>
+          <p class="item-desc">A modern favourite with children and young guests — smooth chocolate wrapped in a fresh betel leaf.</p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="photo" loading="lazy" decoding="async" src="meenakshi.jpg" width="720" height="246" alt="Meenakshi Pan">
+        <div class="item-body">
+          <div class="item-head"><span class="item-name">Meenakshi Pan</span></div>
+          <p class="item-desc">A time-honoured recipe with premium ingredients, balanced and aromatic.</p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="photo" loading="lazy" decoding="async" src="rampyari.jpg" width="720" height="310" alt="Rampyari Pan">
+        <div class="item-body">
+          <div class="item-head"><span class="item-name">Rampyari Pan</span></div>
+          <p class="item-desc">Generously filled and beautifully presented — a celebration paan in every sense.</p>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="photo" loading="lazy" decoding="async" src="chandan.jpg" width="720" height="425" alt="Special Chandan Pan">
+        <div class="item-body">
+          <div class="item-head"><span class="item-name">Special Chandan Pan</span><span class="badge">Special</span></div>
+          <p class="item-desc">Delicately infused with sandalwood essence for a cooling, fragrant finish.</p>
+        </div>
+      </article>
+    </div>
+
+    <p class="also"><b>Also available:</b> a full range of flavoured, herbal and Calcutta-style paan — ask at the counter and we'll prepare it fresh for you.</p>
+  </section>
+
+
+  <!-- ================= VIDEOS ================= -->
+  <section>
+    <h2>Watch Us at Work</h2>
+    <p class="h2-te te">మా షాప్ వీడియోలు</p>
+
+    <div class="vids">
+      <button class="vid" type="button" data-id="obaxm84SkyY">
+        <span class="play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg></span>
+        <span><span class="vid-t">How to Find Our Shop</span><span class="vid-te te">మా షాప్ ఎక్కడ ఉంది</span></span>
+      </button>
+
+      <button class="vid" type="button" data-id="VYV6wyg1qvg">
+        <span class="play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg></span>
+        <span><span class="vid-t">Thank You to Our Customers</span><span class="vid-te te">మా కస్టమర్లకు ధన్యవాదాలు</span></span>
+      </button>
+
+      <button class="vid" type="button" data-id="S0ecZatyeas">
+        <span class="play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg></span>
+        <span><span class="vid-t">A Day at Our Counter</span><span class="vid-te te">మా రోజువారీ పని</span></span>
+      </button>
+    </div>
+
+    <a class="yt" href="https://youtube.com/@hydpancenteratp">More videos on our YouTube channel →</a>
+  </section>
+
+  <!-- ================= BULK ================= -->
+  <section class="bulk">
+    <h2>Bulk &amp; Event Orders</h2>
+    <p class="h2-te te">పెళ్లిళ్లు మరియు కార్యక్రమాలకు</p>
+    <ul>
+      <li>Weddings, receptions, birthdays and corporate functions</li>
+      <li>Customised flavours and presentation on request</li>
+      <li>Advance booking recommended for large quantities</li>
+      <li>Neatly boxed and ready to serve your guests</li>
+    </ul>
+    <a class="btn btn-wa" href="https://wa.me/919959249039?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20a%20bulk%20order%20for%20an%20event.">Plan your order on WhatsApp</a>
+  </section>
+
+  <!-- ================= VISIT ================= -->
+  <section class="visit">
+    <h2>Visit Us</h2>
+    <p class="h2-te te">మా షాప్‌కి రండి</p>
+    <p class="addr">
+      Beside Ruchi's Restaurant, Near Tower Clock,<br>
+      Gulzarpet, Anantapur – 515001,<br>
+      Andhra Pradesh, India
+    </p>
+    <p class="landmark">Landmark: near Govind Reddy Petrol Bunk</p>
+    <div class="timing"><span class="dot"></span> Open daily · 9:00 AM – 10:00 PM</div>
+    <a class="btn btn-maroon" href="https://www.google.com/maps/dir/?api=1&amp;destination=KGN%20Hyderabad%20Pan%20Center%2C%20Tower%20Clock%2C%20Anantapur">Get directions</a>
+    <a class="btn btn-ghost" href="https://www.google.com/search?q=KGN+Hyderabad+Pan+Center+Anantapur+reviews">Read our Google reviews ★ 4.9</a>
+  </section>
+
+  <footer>
+    © 2026 KGN Hyderabad Pan Center · Est. 1974 · Anantapur, Andhra Pradesh
+    <span class="bless te">అన్ని శుభకార్యాలు మరియు కార్యక్రమాలకు<br>మా సేవలు అందుబాటులో ఉన్నాయి 🙏</span>
+  </footer>
+</div>
+
+<a class="fab" href="https://wa.me/919959249039" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1s-.8 1-1 1.2c-.2.2-.4.2-.7.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6s-.7-1.6-.9-2.2c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-1.3 1.4-1 3.3.1 4.9 1.4 2.1 3 3.7 5.6 4.7 2.1.8 2.6.7 3.4.6.7-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.3-1.3c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.1 15 3.7 13.5 3.7 12 3.7 7.4 7.4 3.7 12 3.7S20.3 7.4 20.3 12 16.6 20.2 12 20.2z"/></svg>
+</a>
+
+<script>
+document.getElementById('saveContact').addEventListener('click', function(){
+  var vcf = [
+    'BEGIN:VCARD',
+    'VERSION:3.0',
+    'FN:KGN Hyderabad Pan Center',
+    'ORG:KGN Hyderabad Pan Center',
+    'TEL;TYPE=WORK,VOICE:+919849114175',
+    'TEL;TYPE=CELL:+919959249039',
+    'ADR;TYPE=WORK:;;Beside Ruchi\'s Restaurant, Near Tower Clock, Gulzarpet;Anantapur;Andhra Pradesh;515001;India',
+    'URL:https://hydpancenter-vj8.caffeine.xyz',
+    'NOTE:Authentic handcrafted paan in Anantapur since 1974. Rated 4.9 on Google. WhatsApp orders: +91 99592 49039. Bulk and event orders welcome.',
+    'END:VCARD'
+  ].join('\r\n');
+  var blob = new Blob([vcf], {type:'text/vcard'});
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'KGN-Hyderabad-Pan-Center.vcf';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+});
+
+document.querySelectorAll('.vid').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var id = btn.getAttribute('data-id');
+    var box = document.createElement('div');
+    box.className = 'vid-frame';
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0&playsinline=1';
+    f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+    f.setAttribute('allowfullscreen','');
+    f.title = btn.querySelector('.vid-t').textContent;
+    box.appendChild(f);
+    btn.replaceWith(box);
+  });
+});
+</script>
+</body>
+</html>
